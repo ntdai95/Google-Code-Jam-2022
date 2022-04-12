@@ -25,7 +25,7 @@ class Solution:
         result += b
         half_sum = int(sum(result) / 2)
         print(*self.subset_sum(result, half_sum), flush=True)
-    
+
     def solution(self):
         t = int(input())
         for _ in range(t):
